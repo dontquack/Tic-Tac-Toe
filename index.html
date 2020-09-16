@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,600;1,400&display=swap" rel="stylesheet"> 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="computerGame.js"></script>
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
@@ -24,7 +25,10 @@
             <div class="cell"><button class="cell__btn" id="cell-9" onclick="playersMove('cell-9')"></button></div> 
         </div>
         <div class="btn">
-            <button class="btn-reload" onclick="reload()">New game</button>
+            <button class="btn-reload" onclick="clearField()">New game</button>
+        </div>
+        <div class="btn">
+            <button class="btn-reload" onclick="changeBtns(1)">vs Computer</button>
         </div>
     </div>
 

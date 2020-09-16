@@ -43,7 +43,7 @@
 
 .btn-reload{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: 150px;
     height: 40px;
     font-size: 18px;
